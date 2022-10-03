@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        @charset "UTF-8";
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited {
+            color: darkblue;
+        }
+
+        a:hover{
+            color: rgb(0, 102, 255);
+        }
+
+        a:active {
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+            text-shadow: 0px 0px 15px rgb(16, 187, 255);
+        }
+
+        .especial {
+            background-color: blueviolet;
+        }
+
+        .especial::before {
+            content: '➢';
+        }
+
+        .especial::after {
+            text-decoration: none;
+            font-weight: normal;
+            color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pesonalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/M0rdek4y" target="_blank" rel="external">Repositório Github</a></li>
+        <li><a href="https://www.behance.net/m0rdek4y_designer" class="especial" target="_blank" rel="external">Portfólio Behance</a></li>
+        <li><a href="https://www.twitch.tv/m0rdek4y_" target="_blank" rel="external">Canal da Twitch</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #074035, #007e67 80%);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #24232188  ;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    font-family: Silkscreen;
+    color: #03318C;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(1, 83, 245, 0.600);
+}
+
+h2 {
+    font-family: Alkalami;
+    color: #074035;
+}
+
+p {
+   text-align: justify; 
+}
+
+
+.color-theme_Liquid-Assests-1-hex { color: #1B2026; }
+.color-theme_Liquid-Assests-2-hex { color: #05AFF2; }
+.color-theme_Liquid-Assests-3-hex { color: #04D9B2; }
+.color-theme_Liquid-Assests-4-hex { color: #05F29B; }
+.color-theme_Liquid-Assests-5-hex { color: #05F283; }
