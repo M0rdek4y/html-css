@@ -7,10 +7,25 @@
     <title>Uso de iframe</title>
     <style>
         body {
+            background-image: url(../../../media/gif/hacking.gif);
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
             font-family: Arial, Helvetica, sans-serif;
+            color: green;
+            margin: 0px;
+        }
+
+        p {
+            background-color: white;
+            opacity: 0.3;
         }
 
         iframe#tela {
+            display: block;
+            margin: auto;
+            font-family: 'Courier New', Courier, monospace;
             width: 95vw;
             height: 400px;
             border: 2px solid black;
@@ -29,7 +44,7 @@
 
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi animi quas necessitatibus? Voluptate, autem ad, obcaecati esse aspernatur architecto at sequi ducimus corrupti labore repellendus rem harum laudantium excepturi id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima temporibus autem animi quae, fugit dolores eveniet! Dolore reiciendis inventore quis nisi ab. Facere veniam similique quaerat mollitia perferendis fugiat est!</p>
 
-    <iframe id="tela" name="frame" srcdoc="<h1>Escolha umas das opções acima!</h1><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti magni quisquam ex expedita, autem, corrupti esse omnis quasi, aliquid accusantium assumenda voluptate cum! Error cum nemo commodi voluptas incidunt accusantium.</p><img src='../../../media/images/png/logos/logo.png' width= 200px>">
+    <iframe id="tela" name="frame" srcdoc="<style>body{background-color: black; font-family: 'Courier New', Courier, monospace; color: green;}</style><h1>Escolha umas das opções acima!</h1><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti magni quisquam ex expedita, autem, corrupti esse omnis quasi, aliquid accusantium assumenda voluptate cum! Error cum nemo commodi voluptas incidunt accusantium.</p><img src='../../../media/images/png/logos/logo.png' width= 200px>">
         <p>Infelizmente seu navegador não é compativel com isso.</p>
     </iframe>
 
